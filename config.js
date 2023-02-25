@@ -1,4 +1,4 @@
-require('dontenv').config()
+require('dotenv').config()
 const configs = {
     api: {
         port: process.env.PORT || 3000,
